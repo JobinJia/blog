@@ -220,13 +220,14 @@ bg_image:
   # https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/bg/alice-kirito-eugeo.webp
 
 # Reward (Donate)
-#reward_settings:
-#  # If true, reward would be displayed in every article by default.
-#  # You can show or hide reward in a specific article throuth `reward: true | false` in Front Matter.
-#  enable: true
-#  url: https://github.com/YunYouJun/yunyoujun.github.io/issues/96
-#  #comment: Donate comment here
+reward_settings:
+  # If true, reward would be displayed in every article by default.
+  # You can show or hide reward in a specific article throuth `reward: true | false` in Front Matter.
+  enable: false
+  url: #https://github.com/YunYouJun/yunyoujun.github.io/issues/96
+  #comment: Donate comment here
 reward:
+  enable: true
   alipay:
     path: /img/donate/alipay-qrcode.webp
     color: "#00A3EE"
@@ -255,7 +256,6 @@ creative_commons:
 # Post edit
 # Dependencies: https://github.com/hexojs/hexo-deployer-git
 post_edit:
-  enable: false
   url: https://github.com/user-name/repo-name/tree/branch-name/subdirectory-name # Link for view source.
 
 # Footer Settings
