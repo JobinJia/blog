@@ -7,7 +7,7 @@ title: 落梅听风雪
 subtitle: ''
 description: ''
 keywords:
-author: 落小梅
+author: 月小芽
 language: zh
 timezone: ''
 
@@ -41,7 +41,7 @@ external_link:
   exclude: ''
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true
 relative_link: false
 future: true
 highlight:
