@@ -1,5 +1,7 @@
 #!/bin/sh
 cd ..
+rm -rf public/
+yarn build
 pwd
 zip -q -r -o public.zip public
 scp -i '/Users/jiabinbin/.ssh/root' public.zip root@150.109.111.71:../workspace/blog/
