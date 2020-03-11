@@ -9,6 +9,7 @@ ssh -i '/Users/jiabinbin/.ssh/root' root@150.109.111.71 'cd /workspace/blog/ ; .
 rm -rf public.zip
 git status
 git add .
-git commit -m 'author: update blog'
+git status
+git commit -m 'update blog'
 git push origin master
 echo 'task finished'
