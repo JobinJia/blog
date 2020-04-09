@@ -386,5 +386,4 @@ tags:
 ```
 
 > 结果:
-
-<img src="http://q6yqczaa6.bkt.clouddn.com/upload-result-demo.png"/>
+![result](result.png)
