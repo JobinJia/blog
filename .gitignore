@@ -9,3 +9,9 @@ public/
 .idea/
 *.zip
 hooks/
+将删除 "source/_posts/\346\235\202\351\233\206/"
+将删除 source/archives/
+将删除 themes/plum/languages/
+将删除 themes/plum/layout/
+将删除 themes/plum/scripts/
+将删除 themes/plum/source/
