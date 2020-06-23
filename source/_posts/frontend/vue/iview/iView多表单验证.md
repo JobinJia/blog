@@ -2,6 +2,10 @@
 title: iView多表单验证
 date: 2020-03-16 09:48:59
 tags:
+categories:
+ - 前端
+ - vue
+ - iview
 ---
 ## 利用Array.every实现多表单验证
 

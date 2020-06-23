@@ -2,6 +2,9 @@
 title: webpack的require.context的运用
 date: 2020-04-09 14:02:14
 tags:
+categories:
+ - 前端
+ - vue
 ---
 
 # 构建项目中合理利用require.context进行优化

@@ -2,7 +2,10 @@
 title: ant-design-vue中upload至oss组件
 date: 2020-06-22 18:45:10
 tags:
-categories: 前端 - vue
+categories: 
+ - 前端
+ - vue
+ - ant-design
 ---
 
 
@@ -60,13 +63,11 @@ export default {
     return {
       uploadData: {},
       uploadUrl: ''
-      // uploadFileName: ''
     }
   },
   methods: {
     async customBeforeUpload (file, fileList) {
       // 执行OSS参数获取
-      // this.uploadFileName = file.name
       const query = {
         uploadBusiType: this.uploadBusinessType,
         uploadFileName: this.fileName ? fixFileSuffix(this.fileName, file.name) : file.name,

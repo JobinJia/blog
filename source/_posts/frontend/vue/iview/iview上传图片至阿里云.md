@@ -2,6 +2,10 @@
 title: iview上传图片至阿里云
 date: 2020-03-11 10:34:39
 tags:
+categories:
+ - 前端
+ - vue
+ - iview
 ---
 # iView上传图片至阿里云
 
