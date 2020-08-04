@@ -79,9 +79,14 @@ export default {
 }
 ```
 
-- API记录
+> API记录
 
 1. ref() 发生值传递的基本对象，之所以要.value访问，因为让值传递可监控，需要变成包装对象，详见https://composition-api.vuejs.org/
 ，在模板(template)中使用会自动解包(`<span>{{ cont }}</span>`). 在函数中如果存在于reactive里面会自动解包。如果不是在reactive里面，使用的时候需要.value
 , 如果在hooks里面，返回时需要toRefs()包装，这样在外层调用时如果用Es6的解构时 不会失去响应式。不加toRefs时，外层不能使用解构取值
 2. reactive()  发生引用传递的对象。
+
+> 其它
+
+1. 3.0中EventBus没法用了，$off, $on也被删除，推荐使用[mitt](https://github.com/developit/mitt) 来解决
+2. 全局对象设置 app.config.globalProperties.xxx = xxx
